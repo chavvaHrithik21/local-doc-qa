@@ -2,18 +2,6 @@
 
 Local-first PDF question answering with FastAPI, LangChain, Chroma, sentence-transformers, and Ollama.
 
-## Stack
-
-- FastAPI for API endpoints
-- LangChain + Chroma for retrieval
-- `all-MiniLM-L6-v2` embeddings via `sentence-transformers`
-- Ollama for local LLM inference (default: `llama3.2:1b`)
-
-## API Endpoints
-
-- `GET /` health message
-- `POST /upload` upload a PDF and build a fresh index
-- `POST /query` submit a question and get an answer from the indexed document
 
 ## How it works
 
